@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fernando Marquez - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Fernando Marquez
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="Envelope icon"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="Phone icon"/>
+          +13456764598
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+<section id="about-me" class="container">
+    <div>
+      <img src="https://cdn.pixabay.com/photo/2025/03/05/23/28/future-9449603_640.png" class="profile_image" alt="Profile Image"/>
+    </div>
+    <div>
+      <h1>
+        Hi, I'm Fernando Marquez! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+      </h1>
+      <p>
+        I am Fernando Marquez, a passionate full stack developer with a deep love for technology and innovation.
+        My expertse lies in utilizing co-pilot to create intelligent and impactful solutions. 
+        Beyond coding, I am an enthusiastic learner and a problem solver,
+        always looking for opportunities to push the boundaries of what technology can achieve. 
+        When I'm not immersed in development, you can find me exploring new tech trends, playing guitar, or hiking in the great outdoors.
+      </p>
+    </div>
+  </section>
+  
+   <!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div style="clear:both;"></div>
+    <div class="all_skills">
+      <div class="skill">
+        <img src="html_finalprojimages/html5.png" alt="HTML5 icon"/>
+        <h6>HTML</h6>
+        <p>2 years experience</p>
+      </div>  
+      <div class="skill">
+        <img src="html_finalprojimages/js.jpeg" alt="JavaScript icon"/>
+        <h6>JavaScript</h6>
+        <p>3 years experience</p>
+      </div>  
+      <div class="skill">
+        <img src="html_finalprojimages/python.png" alt="Python icon"/>
+        <h6>Python</h6>
+        <p>2 years experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/css3.png" alt="CSS icon"/>
+        <h6>CSS</h6>
+        <p>2 years experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/java.png" alt="Java icon"/>
+        <h6>Java</h6>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/node.png" alt="Node.js icon"/>
+        <h6>Node.js</h6>
+        <p>2 years experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/react.png" alt="React icon"/>
+        <h6>React</h6>
+        <p>2 years experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/tensorflow.png" alt="TensorFlow icon"/>
+        <h6>TensorFlow</h6>
+        <p>1 year experience</p>
+    </div>
+  </section>
+  
+   <!-- Projects -->
+<section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div style="clear:both;"></div>
+    <div id="projects-container" class="projects-container">
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <ul>
+          <li>Developed a weather forecasting application using HTML, CSS, JavaScript, and OpenWeather API.</li>
+          <li>Integrated real-time weather data and implemented interactive features for enhanced user experience.</li>
+          <li>Deployed the application on IBM Cloud for accessibility and scalability.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Personal Finance Tracker</h3>
+        <ul>
+          <li>Designed and developed a personal finance tracking tool using Python, Django, and SQLite.</li>
+          <li>Implemented features for budget management, expense tracking, and financial analysis.</li>
+          <li>Ensured data security and user privacy through robust authentication and encryption techniques.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>E-commerce Platform</h3>
+        <ul>
+          <li>Created a responsive e-commerce website using React, Node.js, and MongoDB.</li>
+          <li>Integrated shopping cart functionality and payment gateway using Stripe API.</li>
+          <li>Optimized the platform for performance and scalability, ensuring a seamless shopping experience.</li>
+        </ul>
+      </div>
+    </div>
+  </section>  
+
+  <!-- Recommendations -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div style="clear:both;"></div>
+    <div class="all_recommendations" id="all_recommendations">
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Fernando is an exceptional developer who consistently delivers high-quality work. His attention to detail and innovative approach set him apart. Highly recommend!
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Working with Fernando has been an absolute pleasure. His technical expertise and problem-solving skills are unmatched. A true asset to any team.
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Fernando's dedication and passion for technology shine through in every project he undertakes. His collaborative spirit makes him an excellent team player. 
+        <span>&#8221;</span>
+      </div>
+    </div>
+  </section>
+
+    <!-- Recommendation Form -->
+<section id="contact">
+    <div class="flex_center">
+      <fieldset>
+        <legend class="introduction">Leave a Recommendation</legend>          
+        <input type="text" placeholder="Name (Optional)"> <br/>
+        <textarea id="new_recommendation" cols="50" rows="10" placeholder="Message"></textarea>
+        <div class="flex_center">
+          <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+        </div>
+      </fieldset>
+    </div>
+  </section>
+  
+    <!-- Scroll to Top Button -->
+<div class="iconbutton">
+    <a href="#home">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    </a>
+  </div>
+  
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg" alt="Checkmark icon"/>
+      <h3>Your recommendation has been submitted!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
